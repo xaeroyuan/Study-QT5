@@ -1,4 +1,7 @@
 
+if(POLICY CMP0011)
+	cmake_policy(SET CMP0011 NEW)
+endif(POLICY CMP0011)
 
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
